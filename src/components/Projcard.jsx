@@ -33,7 +33,9 @@ export default function Projcard(props) {
                 </h1>
 
                 {/* Here I need to include tech stack*/}
-                
+                <p>
+                    {props.info}
+                </p>
 
                 <p>
                     {props.text}
