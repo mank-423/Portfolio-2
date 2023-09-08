@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Navbar() {
+export default function Nav() {
   const links = [
     { id: 1, name: 'Home', link: '/' },
     { id: 2, name: 'About', link: '/about' },
