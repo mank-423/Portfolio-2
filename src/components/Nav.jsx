@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function Nav() {
   const links = [
@@ -29,9 +31,9 @@ export default function Nav() {
           >
             {links.map((link) => (
               <li key={link.id} className="md:ml-8 text-xl md:my-0 my-4 px-4">
-                <a href={link.link} className="text-gray-900 hover:text-gray-500 duration-400">
+                <Link to={link.link} className="text-gray-900 hover:text-gray-500 duration-400">
                   <span className="text-sm md:text-base">{link.name}</span>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
