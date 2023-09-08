@@ -6,12 +6,14 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function Projects(){
     return (
-        <div className="proj bg-[#D6EAF8] pt-8" id="project">
+        <div className="proj bg-[#D6EAF8] pt-8 p-0 m-0" id="project">
         <center><h1 className="text-2xl font-bold p-2">MY PROJECTS</h1></center>
-        <center><p className="text-lg">A showcase of some of the web development projects that I have completed. 
+        <div className="md:pl-16 md:pr-16 lg:pl-16 lg:pr-16">
+        <center><p className="text-lg md:text-base">A showcase of some of the web development projects that I have completed. 
                 Each project is unique and demonstrates my ability to work with different technologies and frameworks. I am always eager to work on new and challenging projects.</p> 
-            <p className="text-lg">For more of my projects</p> <p> <SocialIcon url="https://github.com/mank-423" /></p> </center>
-            <div className="proj1 grid grid-cols-2">
+            <p className="text-lg md:text-base">For more of my projects</p> <p> <SocialIcon url="https://github.com/mank-423" /></p> </center>
+        </div>
+            <div className="proj1 lg:grid lg:grid-cols-2">
                 <div className="proj_image p-4 w-full mt-8">
                     <img className="h-56 lg:h-72 w-full" src={spacex} alt="SpaceX"></img>  
                 </div>
@@ -41,7 +43,7 @@ export default function Projects(){
                 </div>
 
             </div>
-            <div className="proj2 grid grid-cols-2">
+            <div className="proj2 lg:grid lg:grid-cols-2">
                 <div className="proj_image p-4 w-full mt-8">
                     <img className="h-56 lg:h-72 w-full" src={dbank} alt="dbank"></img>  
                 </div>
@@ -63,7 +65,7 @@ export default function Projects(){
                 </div>
             </div>
 
-            <div className="proj3 grid grid-cols-2">
+            <div className="proj3 lg:grid lg:grid-cols-2">
                 <div className="proj_image p-4 w-full mt-8">
                     <img className="h-56 lg:h-72 w-full" src={hack} alt="hack-this-fall"></img>  
                 </div>
@@ -86,7 +88,7 @@ export default function Projects(){
                     </a>
                 </div>
             </div>
-            <div className="proj4 grid grid-cols-2">
+            <div className="proj4 lg:grid lg:grid-cols-2">
                 <div className="proj_image p-4 w-full mt-8">
                     <img className="h-56 lg:h-72 w-full" src={translator} alt="Translator"></img>  
                 </div>

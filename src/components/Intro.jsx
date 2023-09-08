@@ -1,64 +1,75 @@
-import React from "react";
-import me from "../images/me2.png"
-import cpp from "../images/cpp.png"
-import css from "../images/css.png"
-import html from "../images/html.jpg"
-import js from "../images/js.png"
-import py from "../images/py.png"
-import node from "../images/node.jpg"
-import react from "../images/react.png"
-import mongoose from "../images/mongoose.jpg"
-import mongo from "../images/mongo.png"
-import eth from "../images/eth.png"
-import sol from "../images/sol.jpg"
-import motoko from "../images/motoko.png"
-import ic from "../images/ic.png"
-import c from "../images/C.png"
-import android from "../images/android.jpg"
-import bootstrap from "../images/bootstrap.png"
+import React from 'react'
+import myPhoto from '../images/me2.png'
+
+function Intro() {
+
+    const intro = [
+        { id: 10, text: 'A full stack developer working on MERN technology stack.' },
+        { id: 20, text: 'I like to connect backend servers with user-friendly front-end.' },
+        { id: 30, text: 'Always open to learn new technology and stuff and integrate them to solve problems.' }
+    ]
+
+    return (
+        <section id='intro' className='relative px-36'>
+
+            <div className='grid'>
+                <div className='md:absolute md:right-32 md:top-3 lg:absolute lg:right-12 lg:top-3 flex justify-center items-center'>
+                    <img src={myPhoto} alt="" height={250} width={250} />
+                </div>
+
+                <div className=''>
+                    <div className='p-8'>
+                        <div className='flex justify-center md:text-6xl text-3xl font-semibold p-2'>
+                            Hi
+                            <span className='md:flex md:items-center md:justify-between md:h-12 wave'>
+                                👋
+                            </span>
+                            ,I am
+                            <h1 className="font-semibold text-transparent md:px-3 px-2 md:h-24 h-12 bg-clip-text bg-gradient-to-r from-blue-400 via-green-400 to-pink-600">
+                                Mayank
+                            </h1>
+                            .
+                        </div>
+                        <p className='flex justify-center items-center text-center font-semibold p-2 text-xl'>My developed solutions runs on Internet!</p>
+                    </div>
+
+                    <div className='flex justify-center md:p-2 pl-5'>
+
+                        <ul className='list-disc transition-transform'>
+
+                            <li className="animate-slideInFromLeft md:text-lg py-1">
+                                A full stack developer working on MERN technology stack.
+                            </li>
+                            
+                            <li className='animate-slideInFromLeftTwo md:text-lg py-1'>
+                                I like to connect backend servers with user-friendly front-end.
+                            </li>
+
+                            <li className='animate-slideInFromLeftThree md:text-lg py-1'>
+                                Always open to learn new technology and stuff and integrate them to solve problems.
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div className='flex justify-center gap-20 pt-6'>
+                        <button className='flex justify-center items-center border rounded-lg p-3 md:shadow-sm animate-slideInFromBottomTwo bg-blue-400 font-bold'>
+                            <a href="https://drive.google.com/file/d/1UjpWPSiud6Gh88toJCqfeFOoGLuecSd-/view?usp=sharing" target="_blank">
+                                Resume
+                            </a>
+                        </button>
+
+                        <button className='flex justify-center items-centerborder rounded-lg p-3 md:shadow-sm animate-slideInFromBottomOne bg-orange-400 font-bold'>
+                            Get in Touch
+                        </button>
+                    </div>
+                </div>
 
 
-export default function Intro(){
-    return(
-        <div id="intro">
-        {/* bg-[#9DC08B] */}
-        <div className="bg-[#D6EAF8] grid grid-cols-3 gap-3 pb-12">
-
-            <div className="left grid grid-cols-3 gap-3 m-8">
-                
-                <div></div>
-                <div><img src={cpp} alt="Cpp" className="lg:h-20 lg:w-20 md:h-12 md:h-12 rounded-full opacity-50 rotate-12 "></img></div>
-                <div><img src={py} alt="py" className="lg:h-20 lg:w-28 rounded-full opacity-50 rotate-12 "></img></div>
-                <div><img src={ic} alt="ic" className="lg:h-12 lg:w-20 rounded-sm m-2 opacity-50 rotate-12 "></img></div>
-                <div><img src={c} alt="ic" className="lg:h-20 rounded-sm m-2 opacity-50"></img></div>
-                <div><img src={eth} alt="eth" className="lg:h-20 lg:w-20 rounded-full opacity-50 rotate-12 "></img></div>
-                <div><img src={sol} alt="sol" className="lg:h-20 lg:w-20 rounded-full opacity-50 rotate-12"></img> </div>
-                <div><img src={android} alt="android" className="lg:h-24 lg:w-28 rounded-full opacity-70 rotate-12"></img> </div>
-                <div><img src={motoko} alt="motoko" className="lg:h-24 lg:w-28 md:h-16 rounded-full opacity-50 rotate-12"></img> </div>
             </div>
 
-            <div>
-                <center>
-                    <img src={me} alt="My pic"></img>
-                    <br></br>
-                    <br></br>
-                    <p className="text-2xl font-bold">Full-Stack | Python | Web3.0</p>
-                </center>
-            </div>
+        </section>
+    )
+}
 
-            <div className="right grid grid-cols-3 gap-3 m-8">
-                <div></div>
-                <div><img src={html} alt="HTML" className="lg:h-32 lg:w-36 md:h-20 md:w-24  rounded-full opacity-50 rotate-12 "></img></div>
-                <div><img src={bootstrap} alt="HTML" className="lg:h-16 lg:w-20 md:h-20 md:w-24 rounded-full opacity-50 rotate-12 "></img></div>
-                <div><img src={css} alt="Css" className="lg:h-24 lg:w-44  rounded-full opacity-50 rotate-12 "></img></div>
-                <div><img src={mongoose} alt="mongoose" className="lg:h-32 lg:w-64 opacity-80"></img></div>
-                <div><img src={js} alt="Js" className="lg:h-24 lg:w-24 rounded-full opacity-60 rotate-45 "></img></div>
-                <div><img src={mongo} alt="mongo" className="lg:h-28 lg:w-60 opacity-80"></img></div>
-                <div><img src={node} alt="node" className="lg:h-28 lg:w-40 rounded-full opacity-60 -rotate-12"></img></div>
-                <div><img src={react} alt="react" className="lg:h-28 lg:w-60 rounded-full opacity-80"></img></div>
-            </div>
-        </div>
-            
-        </div>
-    ) 
-};
+export default Intro

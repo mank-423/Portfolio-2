@@ -10,16 +10,16 @@ export default function Contact(){
                 <ion-icon size="large" name="happy-outline" ></ion-icon></center>
             
             <div className="flex items-center justify-center">
-                <div className="linkedin m-12">
+                <div className="linkedin m-4 lg:m-12">
                     <SocialIcon url="https://www.linkedin.com/in/mayank-kumar-035980226/" />
                 </div>
-                <div className="twitter m-12">
+                <div className="twitter m-4 lg:m-12">
                     <SocialIcon url="https://twitter.com/okaymank" bgColor="#1DA1F2" />
                 </div>
-                <div className="github m-12">
+                <div className="github m-4 lg:m-12">
                     <SocialIcon url="https://github.com/mank-423" />
                 </div>
-                <div className="github m-12">
+                <div className="github m-4 lg:m-12">
                     <SocialIcon url="https://mail.google.com/mail/?view=cm&fs=1&to=mk4664348@gmail.com&su=SUBJECT&body=BODY" />
                 </div>
             </div>
