@@ -6,65 +6,75 @@ const projects = [
     id: 1,
     imageName: 'editor',
     title: 'Web Code Editor',
-    info: ['React.js', 'codemirror(npm), '],
-    text: 'A web code editor, which can compile a basic HTML, CSS and Javascript project. It works in integration with the codemirror library and can works with storing the code so that user can access his code later on.',
-    link: 'https://github.com/mank-423/WebCodeEditor'
+    info: ['React.js', 'Node.js' ,'codemirror(npm)', 'CSS 3'],
+    color: ['bg-blue', 'bg-green', 'bg-grey', 'bg-green'],
+    text: 'A web code editor, which can compile a basic HTML, CSS and Javascript project. It works in integration with the code mirror library.',
+    gitlink: 'https://github.com/mank-423/WebCodeEditor',
+    weblink: 'https://webcode-ukhi.onrender.com/',
   },
 
   {
     id: 2,
     imageName: 'gofood',
     title: 'Food Booking App',
-    text: 'A web application for oredering food from the app, which has features of login, signup, selecting food from the menu and checking out with the food selected. Based on MERN stack and using JWT & bcryptjs for enchanced security.',
-    link: 'https://github.com/mank-423/MERN-FoodDelivery'
+    info: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
+    color: ['bg-blue', 'bg-green', 'bg-grey', 'bg-green', 'bg-red'],
+    text: 'GoFood,a web application for oredering food, which has features login, signup, choosing food from the menu and checking out with the food selected.',
+    gitlink: 'https://github.com/mank-423/MERN-FoodDelivery',
+    weblink: 'https://gofood-7ghp.onrender.com/',
   },
   {
     id: 3,
     imageName: 'deVerse',
     title: 'De-Verse',
-    text: 'A web3 dApp which serves as a marketplace, where the user can publish any type of content on the website, and earn profit from selling his own IP. It runs on the backend, and uses IPFS Pinata SDK and the code is written from scratch.',
-    link:'https://github.com/mank-423/DeVerse'
+    info: ['React.js', 'Node.js', 'Solidity', 'Gnosis-Chain', 'Truffle'],
+    color:[],
+    text: 'A web3 dApp world where user can publish any variety of content, he wishes to sell and also buy from marketplace. A unique dapp culture!',
+    gitlink:'https://github.com/mank-423/DeVerse'
   
   },
   {
     id: 4,
     imageName: 'moneyTracker',
     title: 'Pocket Money Tracker',
-    text: 'The project is a simple way for people to take account of their money and spend accordingly. Some features are yet to be added as login feature for every distinct user and also making the UI much more interactive than what it is right now.',
-    link: 'https://github.com/mank-423/Pocket-money'
+    info: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+    color: [],
+    text: 'Money Tracker,a simple way for students to keep track of money. Keeping up all your records to make the HISAAB easy and spend and save easily.',
+    gitlink: 'https://github.com/mank-423/Pocket-money'
   
   },
   {
     id: 5,
     imageName: 'translator',
     title: 'Translator App',
-    text: 'A translator application built using Tkinter for front-end of the project and using libraries from python for voice recoginiton and convertion to text along with the googletrans library to convert to desired langugae given in the application.',
-    link: 'https://github.com/mank-423/Translator'
-  
+    info: ['Python', 'Tkinter', 'googletrans','google-speech'],
+    color: [],
+    text: 'A translator GUI app built on Tkinter and libraries of python for voice recoginiton, converting to text , convert to desired language given in the application.',
+    gitlink: 'https://github.com/mank-423/Translator'
   },
   {
     id: 6,
     imageName: 'lipnet',
     title: 'LipNet',
-    text: 'A machine learning project of Lipnet and integrated using Flask and streamlit which reads lips of videos and converts it to the text. And this could be used for live speeches and broadcasting to get the speech text.',
-    link: 'https://github.com/mank-423/Hackathon_Lipnet'
-  
+    info: ['Python', 'Flask'],
+    color: [],
+    text: 'A ML project of Lipnet and integrated using Flask ,reads lips of videos and converts it to the text. Implmentable idea for deaf users to watch any video.',
+    gitlink: 'https://github.com/mank-423/Hackathon_Lipnet',
+    weblink: 'https://lipsinc-demo.streamlit.app/',
   },
-  
-
 
 ]
 
 
 function Projects() {
   return (
-    <div className='md:px-32 pl-12'>
+    <div className='md:px-20'>
       <h1 className='flex justify-center items-center font-medium p-4'>Projects</h1>
 
       {/* webcodeEditor, goFood, DeVerse, web3 components */}
-      <div className='flex flex-wrap gap-4'>
+      <div className='flex flex-wrap gap-4 justify-center pb-8'>
         {projects.map((item) => (
-          <Projcard key={item.id} id={item.id} imageName={item.imageName} title={item.title} text={item.text}/>
+          <Projcard key={item.id} id={item.id} info={item.info} imageName={item.imageName} title={item.title} text={item.text} gitlink ={item.gitlink} weblink={item.weblink} colors={item.color}/>
         ))}
       </div>
 
