@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaGithub } from "react-icons/fa";
 
 export default function Projcard(props) {
 
@@ -16,13 +17,13 @@ export default function Projcard(props) {
     
     return (
         <div 
-            className={`w-32 rounded-lg shadow-md lg:max-w-sm grid gird-flow-row
-            overflow-hidden transform transition-transform duration-700 ease-in-out hover:scale-110
+            className={`w-80 rounded-lg shadow-2xl lg:max-w-sm grid gird-flow-row
+            overflow-hidden transform transition-transform duration-700 ease-in-out hover:scale-105
             ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-8'}`}
         >
-            <div className="flex justify-center items-center h-28">
+            <div className="flex justify-center items-center">
             <img
-                className="object-cover"
+                className="object-cover w-full h-full p-4 rounded-lg "
                 src={require(`../images/${props.imageName}.jpg`)}
                 alt={props.id}
             />
@@ -40,6 +41,13 @@ export default function Projcard(props) {
                 <p>
                     {props.text}
                 </p>
+
+                <div className="p-2">
+                    <button className="flex justify-center items-center bg-gray-300 rounded-lg p-3 hover:bg-gray-400">
+                        <FaGithub size={20} className="pr-1"/>
+                        <a href={props.link}>Github</a>
+                    </button>
+                </div>
 
             </div>
         </div>

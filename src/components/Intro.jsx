@@ -10,7 +10,7 @@ function Intro() {
     ]
 
     return (
-        <section id='intro' className='relative px-36'>
+        <section id='intro' className='relative md:px-36'>
 
             <div className='grid'>
                 <div className='md:absolute md:right-32 md:top-3 lg:absolute lg:right-12 lg:top-3 flex justify-center items-center'>
@@ -53,13 +53,13 @@ function Intro() {
                     </div>
 
                     <div className='flex justify-center gap-20 pt-6'>
-                        <button className='flex justify-center items-center border rounded-lg p-3 md:shadow-sm animate-slideInFromBottomTwo bg-blue-400 font-bold'>
+                        <button className='flex justify-center items-center border rounded-lg p-3 md:shadow-sm animate-slideInFromBottomTwo bg-[#63CAF2] font-bold'>
                             <a href="https://drive.google.com/file/d/1UjpWPSiud6Gh88toJCqfeFOoGLuecSd-/view?usp=sharing" target="_blank">
                                 Resume
                             </a>
                         </button>
 
-                        <button className='flex justify-center items-centerborder rounded-lg p-3 md:shadow-sm animate-slideInFromBottomOne bg-orange-400 font-bold'>
+                        <button className='flex justify-center items-centerborder rounded-lg p-3 md:shadow-sm animate-slideInFromBottomOne bg-[#63CAF2] font-bold'>
                             Get in Touch
                         </button>
                     </div>

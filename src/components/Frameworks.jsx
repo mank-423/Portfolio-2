@@ -5,16 +5,16 @@ import Card from './Card'
 const fw = [
     {id:1, imageName : 'html', title: 'HTML'},
     {id:2, imageName : 'css', title: 'CSS'},
-    {id:1, imageName : 'node', title: 'Node.js'},
-    {id:3, imageName : 'express', title: 'Express.js'},
-    {id:4, imageName : 'react', title: 'React.js'},
-    {id:4, imageName : 'mongo', title: 'MongoDB'},
-    {id:5, imageName : 'firebase', title: 'Firebase'},
-    {id:7, imageName : 'bootstrap', title: 'Bootstrap'},
-    {id:6, imageName : 'tailwind2', title: 'Tailwind CSS'},
-    {id:8, imageName : 'truffle', title: 'Truffle'},
-    {id:10, imageName : 'w3js', title: 'Web3.js'},
-    {id:9, imageName : 'eth', title: 'Ethereum'},
+    {id:3, imageName : 'node', title: 'Node.js'},
+    {id:4, imageName : 'express', title: 'Express.js'},
+    {id:5, imageName : 'react', title: 'React.js'},
+    {id:6, imageName : 'mongo', title: 'MongoDB'},
+    {id:7, imageName : 'firebase', title: 'Firebase'},
+    {id:8, imageName : 'bootstrap', title: 'Bootstrap'},
+    {id:9, imageName : 'tailwind2', title: 'Tailwind CSS'},
+    {id:10, imageName : 'truffle', title: 'Truffle'},
+    {id:11, imageName : 'w3js', title: 'Web3.js'},
+    {id:12, imageName : 'eth', title: 'Ethereum'},
 ]
 
 const lang = [
