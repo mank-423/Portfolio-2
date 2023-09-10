@@ -1,5 +1,6 @@
 import React from 'react'
 import myPhoto from '../images/me2.png'
+import { Link } from 'react-router-dom';
 
 function Intro() {
 
@@ -13,19 +14,19 @@ function Intro() {
         <section id='intro' className='relative md:px-36'>
 
             <div className='grid'>
-                <div className='md:absolute md:right-32 md:top-3 lg:absolute lg:right-12 lg:top-3 flex justify-center items-center'>
+                <div className='lg:absolute lg:right-12 lg:top-3 flex justify-center items-center'>
                     <img src={myPhoto} alt="" height={250} width={250} />
                 </div>
 
                 <div className=''>
                     <div className='p-8'>
-                        <div className='flex justify-center md:text-6xl text-3xl font-semibold p-2'>
+                        <div className='flex justify-center lg:text-6xl md:text-5xl text-3xl font-semibold p-2'>
                             Hi
                             <span className='md:flex md:items-center md:justify-between md:h-12 wave'>
                                 👋
                             </span>
                             ,I am
-                            <h1 className="font-semibold text-transparent md:px-3 px-2 md:h-24 h-12 bg-clip-text bg-gradient-to-r from-blue-400 via-green-400 to-pink-600">
+                            <h1 className="font-semibold text-transparent lg:px-3 px-2 md:h-24 h-12 bg-clip-text bg-gradient-to-r from-blue-400 via-green-400 to-pink-600">
                                 Mayank
                             </h1>
                             .
@@ -59,9 +60,11 @@ function Intro() {
                             </a>
                         </button>
 
-                        <button className='flex justify-center items-centerborder rounded-lg p-3 md:shadow-sm animate-slideInFromBottomOne bg-[#63CAF2] font-bold'>
-                            Get in Touch
-                        </button>
+                        <Link to="/connect">
+                            <button className='flex justify-center items-centerborder rounded-lg p-3 md:shadow-sm animate-slideInFromBottomOne bg-[#63CAF2] font-bold'>
+                                Get in Touch
+                            </button>
+                        </Link>
                     </div>
                 </div>
 

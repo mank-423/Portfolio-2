@@ -33,7 +33,6 @@ export default function Projcard(props) {
             <div className="flex justify-center items-center">
                 {props.info.map((infoItem, index) => (
                     <button key={index} className={`mr-2 text-xs border p-1 rounded-full ${props.colors[index]}`}>
-                        {console.log(props.colors[index])}
                         {infoItem}
                     </button>
                 ))}
@@ -61,16 +60,20 @@ export default function Projcard(props) {
                     </a>
 
                     {props.weblink ?
-                        <button className="flex justify-center items-center bg-green-300 rounded-lg p-2 hover:bg-green-500">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 
+
+                        <a href={props.weblink}>
+                            <button className="flex justify-center items-center bg-green-300 rounded-lg p-2 hover:bg-green-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 
                                 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 
                                 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-                                />
-                            </svg>
-                            <h1 className="pl-2">Link</h1>
-                        </button>
+                                    />
+                                </svg>
+                                <h1 className="pl-2">Link</h1>
+                            </button>
+                        </a>
+
                         :
                         ""
                     }

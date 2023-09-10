@@ -7,7 +7,7 @@ const projects = [
     imageName: 'editor',
     title: 'Web Code Editor',
     info: ['React.js', 'Node.js' ,'codemirror(npm)', 'CSS 3'],
-    color: ['bg-blue-100', 'bg-green-100', 'bg-grey-100', 'bg-green-100'],
+    color: ['bg-blue-300', 'bg-green-300', 'bg-red-400', 'bg-cyan-500'],
     text: 'A web code editor, which can compile a basic HTML, CSS and Javascript project. It works in integration with the code mirror library.',
     gitlink: 'https://github.com/mank-423/WebCodeEditor',
     weblink: 'https://webcode-ukhi.onrender.com/',
@@ -17,8 +17,8 @@ const projects = [
     id: 2,
     imageName: 'gofood',
     title: 'Food Booking App',
-    info: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
-    color: ['bg-blue-100', 'bg-green-100', 'bg-grey-100', 'bg-green-100', 'bg-red-100'],
+    info: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+    color: ['bg-blue-300', 'bg-green-300', 'bg-yellow-100', 'bg-green-200'],
     text: 'GoFood,a web application for oredering food, which has features login, signup, choosing food from the menu and checking out with the food selected.',
     gitlink: 'https://github.com/mank-423/MERN-FoodDelivery',
     weblink: 'https://gofood-7ghp.onrender.com/',
@@ -28,9 +28,10 @@ const projects = [
     imageName: 'deVerse',
     title: 'De-Verse',
     info: ['React.js', 'Node.js', 'Solidity', 'Gnosis-Chain', 'Truffle'],
-    color:['bg-blue-100', 'bg-green-100', 'bg-grey-100', 'bg-green-100', 'bg-red-100'],
+    color:['bg-blue-300', 'bg-green-300', 'bg-gray-200', 'bg-[#77dd77]', 'bg-[#D2B48C]'],
     text: 'A web3 dApp world where user can publish any variety of content, he wishes to sell and also buy from marketplace. A unique dapp culture!',
-    gitlink:'https://github.com/mank-423/DeVerse'
+    gitlink:'https://github.com/mank-423/DeVerse',
+    weblink:''
   
   },
   {
@@ -38,9 +39,10 @@ const projects = [
     imageName: 'moneyTracker',
     title: 'Pocket Money Tracker',
     info: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
-    color: ['bg-blue-100', 'bg-green-100', 'bg-grey-100', 'bg-green-100'],
-    text: 'Money Tracker,a simple way for students to keep track of money. Keeping up all your records to make the HISAAB easy and spend and save easily.',
-    gitlink: 'https://github.com/mank-423/Pocket-money'
+    color: ['bg-blue-300', 'bg-green-300', 'bg-yellow-100', 'bg-green-200'],
+    text: 'Money Tracker, a simple way for students to keep track of money. Keeping up all your records to make the HISAAB easy and spend and save easily.',
+    gitlink: 'https://github.com/mank-423/Pocket-money',
+    weblink:''
   
   },
   {
@@ -48,16 +50,17 @@ const projects = [
     imageName: 'translator',
     title: 'Translator App',
     info: ['Python', 'Tkinter', 'googletrans','google-speech'],
-    color: ['bg-orange-100', 'bg-green-400','bg-blue-100', 'bg-blue-100'],
+    color: ['bg-yellow-300', 'bg-pink-300','bg-red-100', 'bg-red-100'],
     text: 'A translator GUI app built on Tkinter and libraries of python for voice recoginiton, converting to text , convert to desired language given in the application.',
-    gitlink: 'https://github.com/mank-423/Translator'
+    gitlink: 'https://github.com/mank-423/Translator',
+    weblink:''
   },
   {
     id: 6,
     imageName: 'lipnet',
     title: 'LipNet',
     info: ['Python', 'Flask'],
-    color: ['bg-orange-100', 'bg-green-400'],
+    color: ['bg-yellow-300', 'bg-pink-400'],
     text: 'A ML project of Lipnet and integrated using Flask ,reads lips of videos and converts it to the text. Implmentable idea for deaf users to watch any video.',
     gitlink: 'https://github.com/mank-423/Hackathon_Lipnet',
     weblink: 'https://lipsinc-demo.streamlit.app/',
