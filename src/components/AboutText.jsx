@@ -1,6 +1,9 @@
 import React from 'react'
 
+
+
 function AboutText() {
+
     return (
         <div>
             <div className='md:px-36 p-10'>

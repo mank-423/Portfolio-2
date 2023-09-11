@@ -2,6 +2,8 @@ import React from 'react'
 import myPhoto from '../images/me2.png'
 import { Link } from 'react-router-dom';
 
+
+
 function Intro() {
 
     const intro = [
@@ -14,7 +16,7 @@ function Intro() {
         <section id='intro' className='relative md:px-36'>
 
             <div className='grid'>
-                <div className='lg:absolute lg:right-12 lg:top-3 flex justify-center items-center'>
+                <div className='lg:absolute lg:right-12 lg:top-3 md:pt-4 pt-4 flex justify-center items-center'>
                     <img src={myPhoto} alt="" height={250} width={250} />
                 </div>
 

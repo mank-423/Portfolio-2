@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import Darkmode from './Darkmode';
 
 
 export default function Nav() {
@@ -9,7 +10,7 @@ export default function Nav() {
     { id: 3, name: 'Projects', link: '/projects' },
   ];
 
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
 
   return (
@@ -36,6 +37,8 @@ export default function Nav() {
                 </Link>
               </li>
             ))}
+            
+            {/* <Darkmode /> */}
           </ul>
         </div>
       </div>
