@@ -22,14 +22,14 @@ function Intro() {
                 </div>
 
                 <div className=''>
-                    <div className='p-1 text-white'>
+                    <div className='p-1 pb-0 text-white'>
                         <div className='flex justify-center lg:text-6xl md:text-5xl text-3xl font-semibold p-1'>
                             Hi
                             <span className='md:flex md:items-center md:justify-between md:h-12 wave'>
                                 👋
                             </span>
                             ,I am
-                            <h1 className="font-semibold text-transparent lg:px-3 px-2 md:h-24 h-12 bg-clip-text bg-gradient-to-r from-blue-400 via-green-400 to-pink-600">
+                            <h1 className="font-semibold text-transparent lg:px-3 px-2 md:h-20 h-12 bg-clip-text bg-gradient-to-r from-blue-400 via-green-400 to-pink-600">
                                 Mayank
                             </h1>
                             .
@@ -50,7 +50,7 @@ function Intro() {
                         </p>
                     </div>
 
-                    <div className='flex justify-center p-2 gap-20'>
+                    <div className='flex justify-center p-5 gap-20'>
                         <button className='flex justify-center items-center border rounded-full p-3 md:shadow-sm animate-slideInFromBottomTwo bg-[#63CAF2] hover:shadow-xl font-bold'>
                             <a href="https://drive.google.com/file/d/1UjpWPSiud6Gh88toJCqfeFOoGLuecSd-/view?usp=sharing" target="_blank">
                                 Resume
