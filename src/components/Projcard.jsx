@@ -53,7 +53,7 @@ export default function Projcard(props) {
                 <div className="p-2 flex gap-4 justify-center items-center">
                     <a href={props.gitlink} target="_blank">
                         <button
-                            className="flex justify-center items-center bg-gray-300 rounded-lg p-2 hover:bg-gray-400">
+                            className="flex justify-center items-center bg-gray-500 rounded-lg p-2 hover:bg-gray-400">
                             <FaGithub size={20} className="pr-1" />
                             GitHub
                         </button>
@@ -62,7 +62,7 @@ export default function Projcard(props) {
                     {props.weblink ?
 
                         <a href={props.weblink}>
-                            <button className="flex justify-center items-center bg-green-300 rounded-lg p-2 hover:bg-green-500">
+                            <button className="flex justify-center items-center bg-blue-500 rounded-lg p-2 hover:bg-blue-400">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                                     <path strokeLinecap="round" strokeLinejoin="round"
                                         d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 
