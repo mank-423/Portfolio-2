@@ -17,13 +17,13 @@ function Intro() {
         <section id='intro' className='relative md:px-36'>
 
             <div className='grid'>
-                <div className='lg:absolute lg:right-12 lg:top-3 md:pt-4 pt-4 flex justify-center items-center'>
+                <div className='flex justify-center items-center'>
                     <img src={myPhoto} alt="" height={250} width={250} />
                 </div>
 
                 <div className=''>
-                    <div className='p-8 text-white'>
-                        <div className='flex justify-center lg:text-6xl md:text-5xl text-3xl font-semibold p-2'>
+                    <div className='p-1 text-white'>
+                        <div className='flex justify-center lg:text-6xl md:text-5xl text-3xl font-semibold p-1'>
                             Hi
                             <span className='md:flex md:items-center md:justify-between md:h-12 wave'>
                                 👋
@@ -34,7 +34,7 @@ function Intro() {
                             </h1>
                             .
                         </div>
-                        <p className='flex justify-center items-center text-center font-semibold p-2 text-xl'>
+                        <p className='flex justify-center items-center text-center font-semibold text-xl'>
                             My developed solutions runs on Internet!
 
                             {/* Welcome to{" "}
@@ -49,7 +49,7 @@ function Intro() {
                         </p>
                     </div>
 
-                    <div className='flex justify-center gap-20 pt-6'>
+                    <div className='flex justify-center p-2 gap-20'>
                         <button className='flex justify-center items-center border rounded-full p-3 md:shadow-sm animate-slideInFromBottomTwo bg-[#63CAF2] hover:shadow-xl font-bold'>
                             <a href="https://drive.google.com/file/d/1UjpWPSiud6Gh88toJCqfeFOoGLuecSd-/view?usp=sharing" target="_blank">
                                 Resume
