@@ -30,13 +30,14 @@ export default function Projcard(props) {
                 />
             </div>
 
-            <div className="flex justify-center items-center">
+            {/* Tech stack */}
+            {/* <div className="flex justify-center items-center">
                 {props.info.map((infoItem, index) => (
                     <button key={index} className={`mr-2 text-xs border p-1 rounded-full ${props.colors[index]}`}>
                         {infoItem}
                     </button>
                 ))}
-            </div>
+            </div> */}
 
             <div className="p-4">
                 {/* Title of the project */}

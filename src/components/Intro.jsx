@@ -17,7 +17,7 @@ function Intro() {
         <section id='intro' className='relative md:px-36'>
 
             <div className='grid'>
-                <div className='flex justify-center items-center'>
+                <div className='pt-20 lg:pt-0 md:pt-0 flex justify-center items-center'>
                     <img src={myPhoto} alt="" height={250} width={250} />
                 </div>
 
