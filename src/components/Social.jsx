@@ -14,7 +14,7 @@ export default function Social() {
                 <a href="www.linkedin.com/in/mayank-kumar42" className='md:px-10 px-7 text-blue-700 hover:text-blue-900 transform scale-110 transition-transform hover:scale-100'>
                     <FaLinkedin size={30} />
                 </a>
-                <a href="https://github.com/mank-423" className='md:px-10 px-7 text-black transform scale-110 transition-transform hover:scale-100'>
+                <a href="https://github.com/mank-423" className='md:px-10 px-7 transform scale-110 transition-transform hover:scale-100'>
                     <FaGithub size={30} />
                 </a>
             </div>

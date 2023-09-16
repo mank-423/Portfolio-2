@@ -17,7 +17,7 @@ export default function Projcard(props) {
 
     return (
         <div
-            className={`w-80 rounded-xl shadow-2xl lg:max-w-sm grid grid-flow-row
+            className={`w-80 rounded-xl shadow-2xl lg:max-w-sm grid grid-flow-row border-2 border-white
             overflow-hidden transform transition-transform duration-700 ease-in-out hover:scale-105
             ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-8'}`}
         >

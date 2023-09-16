@@ -71,7 +71,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div className='md:px-20'>
+    <div className='md:px-20 text-white'>
       <h1 className='flex justify-center items-center font-medium p-4'>Projects</h1>
 
       {/* webcodeEditor, goFood, DeVerse, web3 components */}

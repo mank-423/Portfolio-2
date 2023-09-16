@@ -4,13 +4,15 @@ import About from "../Pages/About";
 import Projects from "../Pages/Projects";
 import Nav from "./Nav";
 import Connect from "../Pages/Connect";
+import BackgroundParticle from "./BackgroundParticle";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Nav />
+      <Router> 
         <div>
+          <BackgroundParticle />
+          <Nav />
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />

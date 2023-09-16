@@ -3,7 +3,7 @@ import Intro from '../components/Intro'
 
 function Home() {
   return (
-    <div>
+    <div className='text-white'>
       <Intro />
     </div>
   )

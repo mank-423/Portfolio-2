@@ -1,6 +1,7 @@
 import React from 'react'
 import myPhoto from '../images/me2.png'
 import { Link } from 'react-router-dom';
+// import ReactTyped from "react-typed";
 
 
 
@@ -21,7 +22,7 @@ function Intro() {
                 </div>
 
                 <div className=''>
-                    <div className='p-8'>
+                    <div className='p-8 text-white'>
                         <div className='flex justify-center lg:text-6xl md:text-5xl text-3xl font-semibold p-2'>
                             Hi
                             <span className='md:flex md:items-center md:justify-between md:h-12 wave'>
@@ -33,10 +34,36 @@ function Intro() {
                             </h1>
                             .
                         </div>
-                        <p className='flex justify-center items-center text-center font-semibold p-2 text-xl'>My developed solutions runs on Internet!</p>
+                        <p className='flex justify-center items-center text-center font-semibold p-2 text-xl'>
+                            My developed solutions runs on Internet!
+
+                            {/* Welcome to{" "}
+                            <ReactTyped
+                                strings={["My React App", "Your react typed"]}
+                                typeSpeed={200}
+                                loop
+                                backSpeed={20}
+                                cursorChar="."
+                                showCursor={true}
+                            /> */}
+                        </p>
                     </div>
 
-                    <div className='flex justify-center md:p-2 pl-5'>
+                    <div className='flex justify-center gap-20 pt-6'>
+                        <button className='flex justify-center items-center border rounded-full p-3 md:shadow-sm animate-slideInFromBottomTwo bg-[#63CAF2] hover:shadow-xl font-bold'>
+                            <a href="https://drive.google.com/file/d/1UjpWPSiud6Gh88toJCqfeFOoGLuecSd-/view?usp=sharing" target="_blank">
+                                Resume
+                            </a>
+                        </button>
+
+                        <Link to="/connect">
+                            <button className='flex justify-center items-centerborder rounded-full p-3 md:shadow-sm animate-slideInFromBottomOne bg-[#63CAF2] hover:shadow-xl font-bold'>
+                                Get in Touch
+                            </button>
+                        </Link>
+                    </div>
+
+                    {/* <div className='flex justify-center md:p-2 pl-5'>
 
                         <ul className='list-disc transition-transform'>
 
@@ -53,21 +80,9 @@ function Intro() {
                             </li>
                         </ul>
 
-                    </div>
+                    </div> */}
 
-                    <div className='flex justify-center gap-20 pt-6'>
-                        <button className='flex justify-center items-center border rounded-lg p-3 md:shadow-sm animate-slideInFromBottomTwo bg-[#63CAF2] font-bold'>
-                            <a href="https://drive.google.com/file/d/1UjpWPSiud6Gh88toJCqfeFOoGLuecSd-/view?usp=sharing" target="_blank">
-                                Resume
-                            </a>
-                        </button>
 
-                        <Link to="/connect">
-                            <button className='flex justify-center items-centerborder rounded-lg p-3 md:shadow-sm animate-slideInFromBottomOne bg-[#63CAF2] font-bold'>
-                                Get in Touch
-                            </button>
-                        </Link>
-                    </div>
                 </div>
 
 

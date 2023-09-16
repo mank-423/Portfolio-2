@@ -5,7 +5,7 @@ import Social from '../components/Social'
 
 function About() {
   return (
-    <div>
+    <div className='text-white'>
       <AboutText />
       <Frameworks />
       <Social />

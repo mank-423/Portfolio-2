@@ -4,7 +4,7 @@ import gmail from '../images/gmail.jpg'
 function Connect() {
     return (
         <div>
-
+            
             <div className='md:px-36 pt-5 lg:px-96 flex justify-center'>
                 <div className='grid grid-cols-1 transition-transform'>
 
