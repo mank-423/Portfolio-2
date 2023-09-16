@@ -1,7 +1,7 @@
 import React from 'react'
 import myPhoto from '../images/me2.png'
 import { Link } from 'react-router-dom';
-// import ReactTyped from "react-typed";
+import ReactTyped from "react-typed";
 
 
 
@@ -35,17 +35,18 @@ function Intro() {
                             .
                         </div>
                         <p className='flex justify-center items-center text-center font-semibold text-xl'>
-                            My developed solutions runs on Internet!
-
-                            {/* Welcome to{" "}
+                            {/* My developed solutions runs on Internet! */}
+                            {/* Welcome to&nbsp; */}
+                            
+                            {""}
                             <ReactTyped
-                                strings={["My React App", "Your react typed"]}
-                                typeSpeed={200}
+                                strings={["A full stack web developer", "A web3 enthusiast", "Exploring different tech"]}
+                                typeSpeed={80}
                                 loop
-                                backSpeed={20}
+                                backSpeed={10}
                                 cursorChar="."
                                 showCursor={true}
-                            /> */}
+                            />
                         </p>
                     </div>
 
