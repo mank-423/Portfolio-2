@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     imageName: 'editor',
     title: 'Web Code Editor',
-    info: ['React.js', 'Node.js' ,'codemirror(npm)', 'CSS 3'],
+    info: ['React.js', 'Node.js' ,'codemirror', 'CSS 3'],
     color: ['bg-blue-300', 'bg-green-300', 'bg-red-400', 'bg-cyan-500'],
     text: 'A web code editor, which can compile a basic HTML, CSS and Javascript project. It works in integration with the code mirror library.',
     gitlink: 'https://github.com/mank-423/WebCodeEditor',
@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     imageName: 'deVerse',
     title: 'De-Verse',
-    info: ['React.js', 'Node.js', 'Solidity', 'Gnosis-Chain', 'Truffle'],
+    info: ['React.js', 'Node.js', 'Solidity', 'Gnosis', 'Truffle'],
     color:['bg-blue-300', 'bg-green-300', 'bg-gray-200', 'bg-[#77dd77]', 'bg-[#D2B48C]'],
     text: 'A web3 dApp world where user can publish any variety of content, he wishes to sell and also buy from marketplace. A unique dapp culture!',
     gitlink:'https://github.com/mank-423/DeVerse',
@@ -40,7 +40,7 @@ const projects = [
     title: 'Pocket Money Tracker',
     info: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
     color: ['bg-blue-300', 'bg-green-300', 'bg-yellow-100', 'bg-green-200'],
-    text: 'Money Tracker, a simple way for students to keep track of money. Keeping up all your records to make the HISAAB easy and spend and save easily.',
+    text: 'Money Tracker, a simple way for students to keep track of money. Keeping up all your records to make the HISAAB easy, spend and save with an idea.',
     gitlink: 'https://github.com/mank-423/Pocket-money',
     weblink:''
   
@@ -49,7 +49,7 @@ const projects = [
     id: 5,
     imageName: 'translator',
     title: 'Translator App',
-    info: ['Python', 'Tkinter', 'googletrans','google-speech'],
+    info: ['Python', 'Tkinter', 'googletrans','googlespeech'],
     color: ['bg-yellow-300', 'bg-pink-300','bg-red-100', 'bg-red-100'],
     text: 'A translator GUI app built on Tkinter and libraries of python for voice recoginiton, converting to text , convert to desired language given in the application.',
     gitlink: 'https://github.com/mank-423/Translator',
@@ -61,7 +61,7 @@ const projects = [
     title: 'LipNet',
     info: ['Python', 'Flask'],
     color: ['bg-yellow-300', 'bg-pink-400'],
-    text: 'A ML project of Lipnet and integrated using Flask ,reads lips of videos and converts it to the text. Implmentable idea for deaf users to watch any video.',
+    text: 'A ML project of Lipnet and integrated using Flask ,reads lips of videos and converts it to the text. Implmentable idea for deaf users to watch any video.Used to provide transcribing.',
     gitlink: 'https://github.com/mank-423/Hackathon_Lipnet',
     weblink: 'https://lipsinc-demo.streamlit.app/',
   },
@@ -72,7 +72,9 @@ const projects = [
 function Projects() {
   return (
     <div className='md:px-20 text-white'>
-      <h1 className='flex justify-center items-center font-medium p-4'>Projects</h1>
+      <h1 className='flex justify-center items-center font-medium p-7'>
+        {/* Projects */}
+      </h1>
 
       {/* webcodeEditor, goFood, DeVerse, web3 components */}
       <div className='flex flex-wrap gap-4 justify-center pb-8'>
