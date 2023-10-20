@@ -25,14 +25,13 @@ const projects = [
   },
   {
     id: 3,
-    imageName: 'deVerse',
-    title: 'De-Verse',
-    info: ['React.js', 'Node.js', 'Solidity', 'Gnosis', 'Truffle'],
-    color:['bg-blue-300', 'bg-green-300', 'bg-gray-200', 'bg-[#77dd77]', 'bg-[#D2B48C]'],
-    text: 'A web3 dApp world where user can publish any variety of content, he wishes to sell and also buy from marketplace. A unique dapp culture!',
-    gitlink:'https://github.com/mank-423/DeVerse',
-    weblink:''
-  
+    imageName: 'spacex',
+    title: 'Space-X Clone',
+    info: ['HTML', 'Bootsrap CSS', 'Javascript', 'JQuery'],
+    color: ['bg-orange-300', 'bg-blue-300', 'bg-yellow-100', 'bg-green-200'],
+    text: 'A Space-X clone made with HTML 5 and Bootstrap for designing, and for animations Jquery is used. A thoughful layout design for cloning.',
+    gitlink: 'https://github.com/mank-423/SpaceX-Clone',
+    weblink:'https://mank-423.github.io/SpaceX-Clone/'
   },
   {
     id: 4,
@@ -47,6 +46,17 @@ const projects = [
   },
   {
     id: 5,
+    imageName: 'deVerse',
+    title: 'De-Verse',
+    info: ['React.js', 'Node.js', 'Solidity', 'Gnosis', 'Truffle'],
+    color:['bg-blue-300', 'bg-green-300', 'bg-gray-200', 'bg-[#77dd77]', 'bg-[#D2B48C]'],
+    text: 'A web3 dApp world where user can publish any variety of content, he wishes to sell and also buy from marketplace. A unique dapp culture!',
+    gitlink:'https://github.com/mank-423/DeVerse',
+    weblink:''
+  
+  },
+  {
+    id: 6,
     imageName: 'translator',
     title: 'Translator App',
     info: ['Python', 'Tkinter', 'googletrans','googlespeech'],
@@ -56,7 +66,7 @@ const projects = [
     weblink:''
   },
   {
-    id: 6,
+    id: 7,
     imageName: 'lipnet',
     title: 'LipNet',
     info: ['Python', 'Flask'],
