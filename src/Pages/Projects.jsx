@@ -15,13 +15,13 @@ const projects = [
 
   {
     id: 2,
-    imageName: 'gofood',
-    title: 'Food Booking App',
-    info: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+    imageName: 'summary',
+    title: 'SummaryAI',
+    info: ['React.js', 'Node.js', 'redux-tooklit', 'RapidAPI'],
     color: ['bg-blue-300', 'bg-green-300', 'bg-yellow-100', 'bg-green-200'],
-    text: 'GoFood,a web application for oredering food, which has features login, signup, choosing food from the menu and checking out with the food selected.',
-    gitlink: 'https://github.com/mank-423/MERN-FoodDelivery',
-    weblink: 'https://gofood-7ghp.onrender.com/',
+    text: 'SummaryAI is a project where user can share the blog links that they want to read, and a public API will give the summary fo that blog, to make it simple to read for user.',
+    gitlink: 'https://github.com/mank-423/SummaryAI',
+    weblink:'https://sprightly-begonia-6bb480.netlify.app/'
   },
   {
     id: 3,
@@ -35,6 +35,16 @@ const projects = [
   },
   {
     id: 4,
+    imageName: 'gofood',
+    title: 'Food Booking App',
+    info: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+    color: ['bg-blue-300', 'bg-green-300', 'bg-yellow-100', 'bg-green-200'],
+    text: 'GoFood,a web application for oredering food, which has features login, signup, choosing food from the menu and checking out with the food selected.',
+    gitlink: 'https://github.com/mank-423/MERN-FoodDelivery',
+    weblink: 'https://gofood-7ghp.onrender.com/',
+  },
+  {
+    id: 5,
     imageName: 'moneyTracker',
     title: 'Pocket Money Tracker',
     info: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
@@ -45,7 +55,7 @@ const projects = [
   
   },
   {
-    id: 5,
+    id: 6,
     imageName: 'deVerse',
     title: 'De-Verse',
     info: ['React.js', 'Node.js', 'Solidity', 'Gnosis', 'Truffle'],
@@ -56,7 +66,7 @@ const projects = [
   
   },
   {
-    id: 6,
+    id: 7,
     imageName: 'translator',
     title: 'Translator App',
     info: ['Python', 'Tkinter', 'googletrans','googlespeech'],
@@ -66,7 +76,7 @@ const projects = [
     weblink:''
   },
   {
-    id: 7,
+    id: 8,
     imageName: 'lipnet',
     title: 'LipNet',
     info: ['Python', 'Flask'],
