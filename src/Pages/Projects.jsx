@@ -19,7 +19,7 @@ const projects = [
     title: 'SummaryAI',
     info: ['React.js', 'Node.js', 'redux-tooklit', 'RapidAPI'],
     color: ['bg-blue-300', 'bg-green-300', 'bg-yellow-100', 'bg-green-200'],
-    text: 'SummaryAI is a project where user can share the blog links that they want to read, and a public API will give the summary fo that blog, to make it simple to read for user.',
+    text: 'SummaryAI is a project where user can share the blog links that they want to read, and a public API will give the summary of that blog, to make it simple to read for user.',
     gitlink: 'https://github.com/mank-423/SummaryAI',
     weblink:'https://sprightly-begonia-6bb480.netlify.app/'
   },
