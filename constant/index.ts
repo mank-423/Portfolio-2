@@ -10,9 +10,9 @@ export const listItem: NavItem[] = [
 
 export const experiences = [
   {
-    company: "MyTravally Worldwide",
+    company: "MyTravaly",
     location: "Bangalore",
-    title: "Full-Stack Software Developer",
+    title: "Full-Stack Developer",
     period: "Aug 2024 - Present",
     achievements: [
       "Developed a property management system, HBC by integrating RESTful APIs, implementing authentication and role-based access control, and coordinating frontend interactions with backend payment APIs.",
