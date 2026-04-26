@@ -3,10 +3,9 @@
 import ThemeToggler from './ThemeToggler'
 import { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
-import { listItem } from '@/constant/navItem'
+import { listItem } from '@/constant'
 import { scrollToSection } from '@/utils/navUtils'
 import { NavItem } from '@/types/NavItem'
-import Link from 'next/link'
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
@@ -108,7 +107,7 @@ const Navbar = () => {
                 </div>
             )}
 
-            <div className='flex px-6 pt-2'>
+            {/* <div className='flex px-6 pt-2'>
                 <Link href={'/'} className='text-gray-400 hover:text-(--foreground)'>
                     Home
                 </Link>
@@ -117,7 +116,7 @@ const Navbar = () => {
                 <p>
                     &nbsp;{selected.name}
                 </p>
-            </div>
+            </div> */}
         </nav>
     )
 }

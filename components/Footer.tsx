@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col-reverse md:flex-row items-center justify-between px-6 gap-4">
+    <footer id="footer" className="flex flex-col-reverse md:flex-row items-center justify-between px-6 gap-4 py-4">
 
       {/* Text */}
       <div>
