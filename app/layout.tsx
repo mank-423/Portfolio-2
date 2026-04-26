@@ -76,15 +76,9 @@ export const metadata: Metadata = {
   
   // Alternates
   alternates: {
-    canonical: 'https://your-domain.com',
+    canonical: 'https://mayank-kl2e.onrender.com',
   },
   
-  // Verification
-  verification: {
-    google: 'your-google-verification-code',
-    // yandex: 'your-yandex-verification-code',
-    // me: ['your-email', 'your-linkedin-url'],
-  },
   
   // Other metadata
   category: 'technology',
