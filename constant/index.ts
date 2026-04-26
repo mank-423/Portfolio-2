@@ -16,7 +16,7 @@ export const experiences = [
     period: "Aug 2024 - Present",
     achievements: [
       "Developed a property management system, HBC by integrating RESTful APIs, implementing authentication and role-based access control, and coordinating frontend interactions with backend payment APIs.",
-      "Led migration of MyTravally from React.js to Next.js by restructuring routing and optimizing asset loading, improving Lighthouse performance score by 42%.",
+      "Led migration of MyTravaly OTA from React.js to Next.js by restructuring routing and optimizing asset loading, improving Lighthouse performance score by 42%.",
       "Built a Playwright-based web scraping service deployed on AWS EC2 to extract real-time competitor pricing data, reducing manual effort and enabling pricing optimization workflows.",
       "Built StayConfirm and implemented a Gen-AI based content generation system within the admin portal to automate property descriptions, reducing manual effort and accelerating content publishing workflows."
     ]
