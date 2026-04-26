@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from 'next'
-import { Providers } from '@/components/Providers'
 import './globals.css'
 
 export const viewport: Viewport = {
@@ -92,7 +91,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* Additional meta tags */}
         <meta name="application-name" content="Mayank Kumar Portfolio" />
@@ -107,9 +106,8 @@ export default function RootLayout({
         <meta name="DC.language" content="en" />
       </head>
       <body className="bg-[var(--background)] text-[var(--foreground)]">
-        <Providers>
+        
         {children}
-        </Providers>
       </body>
     </html>
   )
