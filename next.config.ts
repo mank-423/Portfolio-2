@@ -2,9 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export',
   images: {
-    remotePatterns: [new URL('https://github.com/mank-423/orderLLM/assets/**')],
-  }
+    unoptimized: true,  // Required for static export with images
+  },
 };
 
 export default nextConfig;
