@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import { Providers } from '@/components/Providers'
 import './globals.css'
 
 export const viewport: Viewport = {
@@ -106,7 +107,9 @@ export default function RootLayout({
         <meta name="DC.language" content="en" />
       </head>
       <body className="bg-[var(--background)] text-[var(--foreground)]">
+        <Providers>
         {children}
+        </Providers>
       </body>
     </html>
   )
