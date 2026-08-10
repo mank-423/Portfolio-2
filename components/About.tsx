@@ -25,7 +25,7 @@ const About = () => {
 
                 {/* CTA */}
                 <a
-                    href="https://drive.google.com/file/d/1MGTduL-asCqsoOtja7ehdo6ku8NL1XlG/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1TAPI0-zhVYBUq0zsmScw2xZja6H6hdI0/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block underline decoration-dashed underline-offset-4 text-orange-400 hover:text-orange-500 transition-colors"
