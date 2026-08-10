@@ -2,10 +2,10 @@
 
 const Skills = () => {
     const expertiseData = {
-        languages: ["JavaScript", "TypeScript", "Python", "C/C++"],
-        frameworks: ["React.js", "React Native", "Next.js", "Node.js", "Express.js"],
+        languages: ["JavaScript", "TypeScript", "Python", "C/C++", "Go"],
+        frameworks: ["React.js", "React Native", "Next.js", "Node.js", "Express.js", "NestJS"],
         librariesAndTools: [
-            "REST API", "GraphQL", "Postman", "Git", "Github", "Firebase", "MongoDB", "AWS (EC2, S3)", "AWS Lambda",
+            "REST API", "GraphQL", "Redis", "Postman", "Git", "Github", "Firebase", "MongoDB", "AWS (EC2, S3)", "AWS Lambda",
             "Tailwind CSS", "Jest", "Docker", "LLM", "LangChain", "OpenAI"
         ]
     }

@@ -66,7 +66,7 @@ const Contact = () => {
 
                     {/* Resume */}
                     <a
-                        href="https://drive.google.com/file/d/1MGTduL-asCqsoOtja7ehdo6ku8NL1XlG/view"
+                        href="https://drive.google.com/file/d/1TAPI0-zhVYBUq0zsmScw2xZja6H6hdI0/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group bg-[var(--background)] rounded-xl p-6 border border-gray-200 dark:border-gray-700 hover:border-orange-400 transition-all duration-300 text-center block sm:col-span-2"
