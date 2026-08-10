@@ -15,10 +15,12 @@ export const experiences = [
     title: "Full-Stack Developer",
     period: "Aug 2024 - Present",
     achievements: [
+      "Leading backend development for Swoovo (hotel price comparison platform) from scratch in Go with PostgreSQL, implementing hotel search, OTA onboarding workflows, and a push/pull architecture for aggregating real-time pricing data across multiple OTAs.",
+      "Designed and built a channel manager adapter service in NestJS with Redis and queue system, enabling seamless integration with external channel managers, with modular architecture allowing easy switching between different CM providers.",
       "Developed a property management system, HBC by integrating RESTful APIs, implementing authentication and role-based access control, and coordinating frontend interactions with backend payment APIs.",
       "Led migration of MyTravaly OTA from React.js to Next.js by restructuring routing and optimizing asset loading, improving Lighthouse performance score by 42%.",
       "Built a Playwright-based web scraping service deployed on AWS EC2 to extract real-time competitor pricing data, reducing manual effort and enabling pricing optimization workflows.",
-      "Built StayConfirm and implemented a Gen-AI based content generation system within the admin portal to automate property descriptions, reducing manual effort and accelerating content publishing workflows."
+      "Designed and implemented a backend service integrating OpenAI API into the admin portal to generate property descriptions for 5,000+ listings, building a pipeline with property-specific context, reducing effort by 75% (from 15 min to 3 min per property)."
     ]
   },
   {
