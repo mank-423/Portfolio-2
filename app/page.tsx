@@ -9,35 +9,38 @@ import Navbar from "@/components/Navbar"
 import Projects from "@/components/Projects"
 import Skills from "@/components/Skills"
 import { Providers } from '@/components/Providers'
+import ChatBubble from "@/components/Chatbubble"
 
 const page = () => {
 
   return (
+    <>
+      <ChatBubble />
+      <Providers>
 
-    <Providers>
+        <LenisProvider>
 
-      <LenisProvider>
+          <div className="min-h-screen flex flex-col">
 
-        <div className="min-h-screen flex flex-col">
+            {/* Main Content */}
+            <div className="max-w-4xl mx-auto p-5 flex-1 w-full">
+              <Navbar />
+              <About />
+              <Experience />
+              <Skills />
+              <Projects />
+              <Contact />
+            </div>
 
-          {/* Main Content */}
-          <div className="max-w-4xl mx-auto p-5 flex-1 w-full">
-            <Navbar />
-            <About />
-            <Experience />
-            <Skills />
-            <Projects />
-            <Contact />
+            {/* Footer (same width) */}
+            <div className="max-w-4xl mx-auto w-full px-5 pb-5">
+              <Footer />
+            </div>
+
           </div>
-
-          {/* Footer (same width) */}
-          <div className="max-w-4xl mx-auto w-full px-5 pb-5">
-            <Footer />
-          </div>
-
-        </div>
-      </LenisProvider>
-    </Providers>
+        </LenisProvider>
+      </Providers>
+    </>
   )
 }
 
