@@ -103,6 +103,7 @@ const ChatBubble = () => {
             {/* Floating panel */}
             {isOpen && (
                 <div
+                    data-lenis-prevent
                     className="fixed bottom-24 right-5 z-50 w-[90vw] max-w-sm h-[70vh] max-h-[560px]
                      flex flex-col rounded-2xl shadow-2xl overflow-hidden
                      border border-white/10 bg-(--background)"
